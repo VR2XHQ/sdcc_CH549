@@ -30,7 +30,7 @@ Verimake 提供[例程範本](https://gitee.com/verimake/CH549)，它改編自 W
 ```text
 sdcc_CH549/
 ├── assets/         圖片展示
-├── doc/            參考資料
+├── docs/           參考資料
 ├── example/        範例程式
 ├── inc/            硬件驅動頭文件
 ├── Makefile        執行自動化文件
@@ -49,10 +49,6 @@ sdcc_CH549/
 - VScode 似乎無 SDCC 専屬的 extension, 但用它建立及修改代碼，在內建 Terminal 下做燒錄，仍是很方便的。
 
 
-### 運行 demo_max7219 視頻 
-<a href="assets/demo_video.mp4">
-  <img src="assets/demo_video.png" alt="Demo_video" style="width:200px; border-radius:8px;">
-</a>
-
-
+### 執行demo_max7219固件的視頻
+[![影片預覽](assets/demo_video.png)](https://vr2xhq.github.io/sdcc_CH549/)
 
