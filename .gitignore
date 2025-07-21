@@ -1,0 +1,17 @@
+# project excluded directory
+.private/
+.vscode/
+build/
+
+# SDCC tmp files
+*.sym
+*.asm
+*.rel
+*.rst
+*.ihx
+*.lk
+*.map
+*.mem
+
+# private vscode files
+sdcc_CH549.code-workspace
