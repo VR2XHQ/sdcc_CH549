@@ -1,14 +1,138 @@
-<!-- docs/index.html -->
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>CH549 示範影片</title>
-  </head>
-  <body>
-    <h2>CH549 示範影片</h2>
-    <video width="640" controls>
-      <source src="../assets/demo_video_compressed.mp4" type="video/mp4">
-      您的瀏覽器不支援 HTML5 影片播放。
-    </video>
-  </body>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>CH549 開發展示頁</title>
+  <style>
+    body {
+      font-family: "Segoe UI", sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9fbff;
+      color: #333;
+    }
+    header {
+      background-color: #2d6cdf;
+      color: white;
+      text-align: center;
+      padding: 2em 1em;
+    }
+    header h1 {
+      margin: 0.2em 0;
+      font-size: 2em;
+    }
+    .content {
+      max-width: 960px;
+      margin: auto;
+      padding: 2em 1em;
+    }
+    .video-section {
+      text-align: center;
+      margin-bottom: 2em;
+    }
+    .video-section h2 {
+      color: #2d6cdf;
+    }
+    .video-thumbnail {
+      display: inline-block;
+      position: relative;
+      cursor: pointer;
+      margin-top: 1em;
+    }
+    .video-thumbnail img {
+      width: 320px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+    .video-thumbnail::after {
+      content: "▶";
+      font-size: 2em;
+      color: white;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: rgba(0,0,0,0.5);
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      line-height: 50px;
+      text-align: center;
+    }
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 1em;
+    }
+    .feature {
+      flex: 1 1 220px;
+      background-color: #eff4ff;
+      padding: 1em;
+      border-radius: 8px;
+      text-align: center;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    }
+    footer {
+      background-color: #eee;
+      text-align: center;
+      padding: 1.5em;
+      font-size: 0.9em;
+      color: #666;
+    }
+    a.button {
+      display: inline-block;
+      margin-top: 1.5em;
+      padding: 0.6em 1.2em;
+      background-color: #2d6cdf;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+    }
+    a.button:hover {
+      background-color: #1e50a2;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>CH549 開發展示頁</h1>
+    <p>探索以 SDCC 編譯器打造的 USB 嵌入式系統應用</p>
+  </header>
+
+  <div class="content">
+
+    <div class="video-section">
+      <h2>示範影片</h2>
+      <a class="video-thumbnail" href="https://github.com/user-attachments/assets/966f7d4d-f317-4628-9312-c69aae1523e0" target="_blank">
+        <img src="../assets/demo_video.png" alt="Demo Video">
+      </a>
+      <p>📽️ 點擊上方預覽圖可播放影片（由 GitHub Issue 提供）</p>
+    </div>
+
+    <div class="section">
+      <h2>項目特色</h2>
+      <div class="features">
+        <div class="feature">🧰 SDCC 編譯器支援</div>
+        <div class="feature">🔌 高效 USB 驅動架構</div>
+        <div class="feature">📘 清晰完整的 README</div>
+        <div class="feature">🚀 快速部署與測試範例</div>
+      </div>
+    </div>
+
+    <div class="section" style="margin-top: 2em;">
+      <h2>GitHub 倉庫連結</h2>
+      <p>瀏覽原始碼與相關資源：</p>
+      <a class="button" href="https://github.com/VR2XHQ/sdcc_CH549" target="_blank">前往 GitHub 倉庫</a>
+    </div>
+
+  </div>
+
+  <footer>
+    © 2025 VR2XHQ. 本頁由 GitHub Pages 自動部署。歡迎轉載與分享，建議使用桌面瀏覽器以獲得最佳效果。
+  </footer>
+
+</body>
 </html>
