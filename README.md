@@ -49,6 +49,12 @@ sdcc_CH549/
 - VScode 似乎無 SDCC 専屬的 extension, 但用它建立及修改代碼，在內建 Terminal 下做燒錄，仍是很方便的。
 
 
-### 執行demo_max7219固件的視頻
-[![影片預覽](assets/demo_video.png)](https://vr2xhq.github.io/sdcc_CH549/)
+### demo_max7219 固件的執行
+<p>
+  <a href="https://github.com/user-attachments/assets/966f7d4d-f317-4628-9312-c69aae1523e0" target="_blank">
+    <img src="docs/assets/demo_video.png" alt="Demo Video" width="200px">
+  </a><br>
+  <em>▶️ 點擊上方圖片播放示範影片</em>
+</p>
+
 
